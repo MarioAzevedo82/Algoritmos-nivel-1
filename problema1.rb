@@ -15,3 +15,25 @@ puts "O menor número foi #{inicio}"
 puts "O maior número foi #{fim}"
 
 puts "A Soma do intervalo entre #{inicio} e #{fim} foi #{soma}"
+
+
+
+# OUTRA SOLUÇÃO 
+
+# puts "---Soma em um intervalo---"
+
+# puts "Digite o primeiro número: "
+# num1 = gets.chomp.to_i
+
+# puts "Digite o segundo número: "
+# num2 = gets.chomp.to_i
+
+# inicio = [num1, num2].min
+# fim = [num1, num2].max
+
+# soma = 0
+# (inicio..fim).each do |numero|
+#   soma += numero
+# end
+
+# puts "o somatorio foi #{soma}"
